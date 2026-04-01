@@ -16,7 +16,7 @@ const App = () => {
     { title: "Cocktail Juice", price: 30, image: cocktail },
   ];
   return (
-    <div className="p-5 font-sans">
+    <div className="p-6">
       <h1 className="text-2xl font-bold mb-5">Product List: Juices</h1>
       <div className="flex flex-wrap">
         {products.map((product, index) => (
